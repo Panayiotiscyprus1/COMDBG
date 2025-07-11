@@ -9,7 +9,7 @@ USB optical head.
 
 ## Features
 
-* **Live read-out** – fetch the full MBUS variable data frame \
+* **Live read-out** – fetch the full MBUS variable data frame - and decode\
   (flow totals, temperatures, operation hours …).
 * **Hex/ASCII console** – raw traffic in/out with auto CRC, auto spacing.
 * **One-click config**
