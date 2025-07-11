@@ -5,11 +5,6 @@ talks to our NB-IoT / optical-interface water meters via the **M-Bus**
 protocol.  
 It lets you **read, decode, and configure** a single meter plugged into a
 USB optical head.
-
-<p align="center">
-  <img src="docs/screenshot.png" width="700">
-</p>
-
 ---
 
 ## Features
@@ -25,15 +20,7 @@ USB optical head.
 * Saves / restores last COM settings (baud-rate, parity, etc.).
 * Works with any USB optical probe in **2400 8E1**.
 
-## Build
+**All the decoding, data processing etc happens based on the factory's protocol, which follows the MBUS protocol
 
-```bash
-# .NET 6 +
-dotnet restore
-dotnet build -c Release
-
-
-The code here is just `MainForm.cs` + its Designer file so the team can
-review it.  It builds on Windows with Visual Studio / .NET 6.
 
 Default serial settings: **2400 baud  8-E-1  no handshake**.
